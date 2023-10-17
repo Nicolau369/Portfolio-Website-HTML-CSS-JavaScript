@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Portfolio</title>
+    <!-- ====>> Linking External CSS=============>> -->
+    <link rel="stylesheet" href="website.css">
+    <!-- =========>> Unicons <<========= -->
+    <link 
+        href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' 
+        rel='stylesheet'
+    >
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#" class="active" style="--i:1">Home</a>
+            <a href="#" style="--i:2">About</a>
+            <a href="#" style="--i:3">Skills</a>
+            <a href="#" style="--i:4">Portfolio</a>
+            <a href="#" style="--i:5">Contact</a>
+        </nav>
+    </header>
+
+    <!-- =======>> Hero Section <<======== -->
+    <div class="hero-container">
+        <div class="info-side">
+            <h3 class="part-1">Hello, It's Me</h3>
+            <h1>1rma0lh0</h1>
+            <h3 class="part-2">And I'm a another <span id="changing-text">Web Developer</span></h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima,
+                harum.adipisicing elit. Minima !
+            </p>
+            <!-- Social Media Icons-->
+            <a href="#"><i class='bx bxl-facebook' style="--i:7"></i></a>
+            <a href="#"><i class='bx bxl-twitter' style="--i:8"></i></a>
+            <a href="#"><i class='bx bxl-instagram' style="--i:9"></i></a>
+            <a href="#"><i class='bx bxl-linkedin' style="--i:10"></i></a>
+            <br />
+            <button class="btn">Download CV</button>
+        </div>
+
+        <div class="hero-img">
+            <img src="./Images/Design sem nome.png" alt="My Pic">
+        </div>
+    </div>
+
+    <!-- linking JavaScript -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="website.js"></script>
+</body>
+</html>
